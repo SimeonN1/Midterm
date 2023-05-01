@@ -1,0 +1,131 @@
+    *{
+      margin: 0;
+      padding: 0;
+  }
+  
+      body{
+        background-color: #eee;
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+      }
+
+      .wrapper{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        background-color: #ffffff;
+      }
+
+      .wrapper h1{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 2em;
+        font-style: normal;
+        color: #ce1515;
+        margin: 0;
+        padding: 20px;
+      }
+
+      .blah h3{
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-style: normal;
+        color: #ce1515;
+        margin-bottom: 20px;
+        padding: 0;
+
+      }
+
+      .wrapper article{
+        position: absolute;
+        width: 350px;
+        top: 13%;
+        right: 20px;
+        background-color: #160c0c;
+        color: #ffffff;
+        padding: 10px;
+        border-radius: 20px;
+        font-size: .8em;
+      }
+
+      .wrapper img{
+        width: 100%;
+      }
+
+      .favImages img{
+        width: 50%;
+        padding: 0;
+        margin: 10px 0 10px 0;
+        float: left;
+        overflow: auto;
+      }
+
+      #mainnav{
+        background-color: #838383cc;
+  
+      }
+      #mainnav ul{
+        text-align: center;
+      }
+  
+      #mainnav li{
+        display:inline-block;
+        text-transform: uppercase;
+        padding: .5em 0px; 
+        line-height: 3em; 
+        width: 18%
+      }
+
+      a{
+        display: block;
+        text-decoration: none;
+        color:#ffffff
+      }
+
+      .wrapper main p a{
+        display: block;
+        background-color: rgb(193, 0, 29);
+        text-align: center;
+        padding: 10px;
+        clear: both;
+      }
+
+      .wrapper main{
+        width: 68%;
+        float: left;
+        margin-right: 2%;
+        padding: 3%;
+        box-sizing: border-box;
+      }
+
+      .wrapper aside{
+        width: 30%;
+        float: left;
+        padding: 3%;
+        box-sizing: border-box;
+      }
+
+      aside section{
+        background-color: #f4f4f4;
+        box-shadow: 3px 4px 7px #888888;
+        padding: 10px;
+        margin: 0;
+    }
+
+      main h2, aside h2{
+        color: #ff5454;
+        font-weight: 500;
+        margin: 10px 0 10px 0;
+      }
+
+      footer {
+        background-color: #838383cc;
+        color: #ffffff;
+        line-height: 2em;
+        padding: 10px;
+        clear: both;
+      }
